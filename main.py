@@ -61,7 +61,7 @@ async def on_message(message: Message) -> None:
         
         if voice_channel is not None:
             await message.channel.send('Showing the American Spirit! o7')
-            await join_and_play_bells(voice_channel, 2)  # Play 1 bell chime
+            await join_and_play_bells(voice_channel, 3)  # Play 1 bell chime
         else:
             await message.channel.send('You need to be in a voice channel to display your alligance to the flag.')
     else:
